@@ -1,5 +1,5 @@
 # Chia-Fake-Primes
-An example 1024 bit pseudoprime to the primality test found in Chia. This particular example has 4 factors and took ~1min to generate.
+An example 1024 bit composite that is *guaranteed* to be declared prime by the primality test found in Chia. This particular example has 4 factors and took ~1min to generate.
 Should we throw more core-time at the problem, we could easily produce say, an 8 factored example.
 
 Simply a proof of concept to fool the test seen in Chia at https://github.com/Chia-Network/vdf-competition/blob/master/inkfish/primes.py#L16 motivated by Antonio Sanso.
